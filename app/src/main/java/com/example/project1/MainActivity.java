@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        //opening the shared preferences to obtain usernames and passwords
         username =findViewById(R.id.username);
         password = findViewById(R.id.password);
         sharedpreferences = getSharedPreferences(MYPREF,MODE_PRIVATE);
@@ -35,9 +37,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void login(View view) {
+
+        //getting the username and password
         String user = username.getText().toString();
         String pass = password.getText().toString();
+
+        //checking if its an existing user
         if (sharedpreferences.contains(USERNAME) && sharedpreferences.contains(PASSWORD)) {
+            //if existing user is true then takes us to the app
             Intent intent = new Intent(this,app.class);
             startActivity(intent);
         }
@@ -47,17 +54,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-//            //Toast.makeText(getApplicationContext(),user, Toast.LENGTH_LONG).show();
-//            if(username.getText().length() == 0 || password.getText().length() == 0){
-//                Toast.makeText(getApplicationContext(),"Invalid input", Toast.LENGTH_LONG).show();
-//            }
-//            else{
-//                Toast.makeText(getApplicationContext(),"Logged in, Success", Toast.LENGTH_LONG).show();
-//
-//            }
     }
 
+    //if the user is not existing then they can register
     public void register(View view) {
         Intent intent = new Intent(this, Register.class);
         startActivity(intent);
