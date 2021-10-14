@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".quizGame">
+    tools:context=".GameFragment">
 
 
         <ScrollView
@@ -59,9 +59,11 @@
                                 android:layout_width="166dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp"
-                                android:text="Washington" />
+                                android:text="Washington"
+                                android:backgroundTint="@color/button_default" />
 
                             <Button
+
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp"

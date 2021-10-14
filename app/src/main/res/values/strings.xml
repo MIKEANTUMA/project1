@@ -2,4 +2,6 @@
     <string name="app_name">project1</string>
     <string name="question1">What is the capital of the USA?</string>
     <string name="q1_right_answer">Washington DC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,64 +1,36 @@
 package com.example.project1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.navigation.NavController;
+import androidx.navigation.fragment.NavHostFragment;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
 
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText username;
-    EditText password;
-    SharedPreferences sharedpreferences;
-    public static final String MYPREF = "My_PREF_FILE_NAME";
-    public static final String USERNAME = "USERNAME_KEY";
-    public static final String PASSWORD = "PASSWORD_KEY";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        BottomNavigationView navView = findViewById(R.id.nav_view);
+        NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.nav_host_fragment);
 
-        //opening the shared preferences to obtain usernames and passwords
-        username =findViewById(R.id.username);
-        password = findViewById(R.id.password);
-        sharedpreferences = getSharedPreferences(MYPREF,MODE_PRIVATE);
-        if (sharedpreferences.contains(USERNAME)) {
-            username.setText(sharedpreferences.getString(USERNAME, ""));
-        }
-        if (sharedpreferences.contains(PASSWORD)) {
-            password.setText(sharedpreferences.getString(PASSWORD, ""));
+        if (navHostFragment != null) {
+            NavController navController = navHostFragment.getNavController();
 
+            AppBarConfiguration appBarConfig = new AppBarConfiguration.Builder(
+                    R.id.navigation_game, R.id.navigation_logout, R.id.navigation_help)
+                    .build();
+
+            NavigationUI.setupActionBarWithNavController(this, navController, appBarConfig);
+            NavigationUI.setupWithNavController(navView, navController);
         }
     }
 
-    public void login(View view) {
-
-        //getting the username and password
-        String user = username.getText().toString();
-        String pass = password.getText().toString();
-
-        //checking if its an existing user
-        if (sharedpreferences.contains(USERNAME) && sharedpreferences.contains(PASSWORD)) {
-            //if existing user is true then takes us to the app
-            Intent intent = new Intent(this,app.class);
-            startActivity(intent);
-        }
-        else {
-            Toast.makeText(getApplicationContext(),"Invalid input", Toast.LENGTH_LONG).show();
-        }
-
-
-
-    }
-
-    //if the user is not existing then they can register
-    public void register(View view) {
-        Intent intent = new Intent(this, Register.class);
-        startActivity(intent);
-    }
 }

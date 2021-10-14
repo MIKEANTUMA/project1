@@ -10,19 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project1">
         <activity
-            android:name=".quizGame"
+            android:name=".LogoutFragment"
             android:exported="true" />
         <activity
-            android:name=".Instructions"
+            android:name=".GameFragment"
             android:exported="true" />
         <activity
-            android:name=".app"
+            android:name=".HelpFragment"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Register"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true" />
         <activity
             android:name=".SplashScreen"

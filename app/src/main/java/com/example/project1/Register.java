@@ -1,6 +1,5 @@
 package com.example.project1;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -119,7 +118,7 @@ public class Register extends AppCompatActivity {
         editor.putString(USERNAME, n);
         editor.putString(PASSWORD, e);
         editor.apply();
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);}
 
    }

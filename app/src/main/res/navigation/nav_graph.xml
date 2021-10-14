@@ -6,12 +6,20 @@
     app:startDestination="@+id/navigation_game">
 
     <fragment
-        android:id="@+id/QuizGame"
+        android:id="@+id/navigation_game"
         android:label="Quiz Game"
-        tools:layout="@layout/activity_quiz_game" />
+        android:name="com.example.project1.GameFragment"
+        tools:layout="@layout/fragment_game" />
 
     <fragment
-        android:id="@+id/navigation_color"
+        android:id="@+id/navigation_help"
         android:label="instructions"
-        tools:layout="@layout/activity_instructions" />
+        android:name="com.example.project1.HelpFragment"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/navigation_logout"
+        android:label="instructions"
+        android:name="com.example.project1.LogoutFragment"
+        tools:layout="@layout/fragment_logout" />
 </navigation>

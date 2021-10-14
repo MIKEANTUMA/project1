@@ -4,9 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/drawable/game_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/drawable/help_icon.xml" value="0.3671875" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/drawable/selector.xml" value="0.3494791666666667" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout-land/activity_app.xml" value="0.29717813051146386" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout-land/activity_register.xml" value="0.29717813051146386" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout-land/activity_splash_screen.xml" value="0.29717813051146386" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/Login.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/activity_app.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/activity_instructions.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/activity_logout_fragment.xml" value="0.3015625" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/activity_main.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/activity_quiz_game.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/activity_register.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/activity_splash_screen.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/fragment_button_confirm_dialog.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/fragment_game.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/fragment_help.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/fragment_home.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/layout/fragment_notice_dialog.xml" value="0.31927083333333334" />
         <entry key="..\:/Users/antuma/StudioProjects/project2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/michael/Documents/project1/app/src/main/res/layout-land/activity_app.xml" value="0.14285714285714285" />
         <entry key="..\:/Users/michael/Documents/project1/app/src/main/res/layout-land/activity_register.xml" value="0.304673721340388" />
