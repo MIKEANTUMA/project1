@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">project1</string>
+    <string name="question1">What is the capital of the USA?</string>
+    <string name="q1_right_answer">Washington DC</string>
 </resources>
