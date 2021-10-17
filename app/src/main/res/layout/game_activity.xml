@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameFragment">
+    tools:context=".GameActivity">
 
 
         <ScrollView
@@ -60,7 +60,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="10dp"
                                 android:text="Washington"
-                                android:backgroundTint="@color/button_default" />
+                                />
 
                             <Button
 

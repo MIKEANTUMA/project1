@@ -9,17 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project1">
+
         <activity
-            android:name=".LogoutFragment"
+            android:name=".GameActivity"
             android:exported="true" />
         <activity
-            android:name=".GameFragment"
-            android:exported="true" />
-        <activity
-            android:name=".HelpFragment"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".HelpActivity"
             android:exported="true" />
         <activity
             android:name=".Register"
