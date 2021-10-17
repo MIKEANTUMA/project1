@@ -9,12 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Project1">
-
         <activity
-            android:name=".GameActivity"
+            android:name=".Instructions"
             android:exported="true" />
         <activity
-            android:name=".HelpActivity"
+            android:name=".GameActivity"
             android:exported="true" />
         <activity
             android:name=".Register"

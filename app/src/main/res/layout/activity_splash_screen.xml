@@ -12,29 +12,16 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
         android:gravity="center"
-        android:text="Welcome to my app"
+        android:shadowColor="@color/white"
+        android:text="Quiz Game "
+        android:textAllCaps="true"
         android:textColor="#0f0"
         android:textSize="40dp"
-        android:layout_gravity="center"
-        android:textStyle="italic"
-        android:shadowColor="@color/white"
-        android:textAllCaps="true"
-        android:layout_marginTop="200dp"
-        android:layout_centerInParent="true"
-   />
-
-    <Button
-        android:id="@+id/button"
-        android:onClick="button"
-        android:layout_centerInParent="true"
-        android:text="enter"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:textColor="#f00"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textStyle="italic" />
 
     <ImageView
         android:id="@+id/image_view"
