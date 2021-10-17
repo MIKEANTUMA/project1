@@ -1,35 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.project1">
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Quiz Game"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Project1">
+        android:theme="@style/Theme.Project1"
+        >
         <activity
+            android:label="Instructions"
             android:name=".Instructions"
-            android:exported="true" />
+            android:exported="true"
+            android:configChanges="orientation|screenLayout|screenSize"/>
         <activity
+            android:label="Quiz"
             android:name=".GameActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:configChanges="orientation|screenLayout|screenSize"/>
         <activity
+            android:label="Register"
             android:name=".Register"
-            android:exported="true" />
+            android:exported="true"
+            android:configChanges="orientation|screenLayout|screenSize"/>
         <activity
+            android:label="Login"
             android:name=".LoginActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:configChanges="orientation|screenLayout|screenSize"/>
         <activity
+            android:label="Loading"
             android:name=".SplashScreen"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation|screenLayout|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

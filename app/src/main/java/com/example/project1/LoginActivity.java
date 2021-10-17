@@ -55,12 +55,12 @@ public class LoginActivity extends AppCompatActivity{
        });
 
 
-
-        //if the user is not existing then they can register
-//        public void register (View view){
-//            Intent intent = new Intent(this, Register.class);
-//            startActivity(intent);
-//        }
-
     }
+       // if the user is not existing then they can register
+        public void register (View view){
+            Intent intent = new Intent(this, Register.class);
+            startActivity(intent);
+        }
+
+
 }
