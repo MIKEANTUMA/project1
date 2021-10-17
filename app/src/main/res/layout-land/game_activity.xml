@@ -31,7 +31,6 @@
         android:text="@string/question1"
         android:textColor="@android:color/black"
         android:textSize="30sp"
-        android:padding="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
@@ -45,10 +44,8 @@
         <Button
             android:id="@+id/true_button"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="30dp"
             android:backgroundTint="#5BD91B"
             android:layout_width="100dp"
-            android:layout_marginBottom="40dp"
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:text="@string/true_text" />
@@ -56,7 +53,6 @@
         <!--FalseButton-->
         <Button
             android:id="@+id/false_button"
-            android:layout_marginTop="30dp"
             android:layout_marginLeft="20dp"
             android:layout_width="100dp"
             android:backgroundTint="#E33328"
@@ -93,7 +89,7 @@
         android:id="@+id/instructions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+
         android:layout_gravity="left"
         android:text="Instructions"
         />

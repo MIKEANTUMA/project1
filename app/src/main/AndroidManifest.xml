@@ -14,27 +14,28 @@
             android:label="Instructions"
             android:name=".Instructions"
             android:exported="true"
-            android:configChanges="orientation|screenLayout|screenSize"/>
+            android:screenOrientation="sensor"/>
         <activity
             android:label="Quiz"
             android:name=".GameActivity"
             android:exported="true"
-            android:configChanges="orientation|screenLayout|screenSize"/>
+            android:screenOrientation="sensor"
+            />
         <activity
             android:label="Register"
             android:name=".Register"
             android:exported="true"
-            android:configChanges="orientation|screenLayout|screenSize"/>
+            android:screenOrientation="sensor"/>
         <activity
             android:label="Login"
             android:name=".LoginActivity"
             android:exported="true"
-            android:configChanges="orientation|screenLayout|screenSize"/>
+            android:screenOrientation="sensor"/>
         <activity
             android:label="Loading"
             android:name=".SplashScreen"
             android:exported="true"
-            android:configChanges="orientation|screenLayout|screenSize">
+            android:screenOrientation="sensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

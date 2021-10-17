@@ -31,21 +31,7 @@
         android:textColor="#0f0"
         android:textSize="60dp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@id/button" />
-
-
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:layout_gravity="bottom"
-            android:onClick="button"
-            android:text="enter"
-            android:textColor="@color/white"
-            android:textSize="50dp" />
-
+      />
 
 
 </LinearLayout>
